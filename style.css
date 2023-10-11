@@ -1,0 +1,37 @@
+body {
+	font-family: "Ralawey", "sans-serif";
+	height: 100vh;
+	color: #fff;
+	background-color: #333;
+}
+
+.hero-image {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(45deg);
+	height: 400px;
+	width: 600px;
+	background-image: url(./img/adam-kool-ndN00KmbJ1c-unsplash.jpg);
+}
+
+.hero-image:hover {
+	transform: translate(-50%, -50%) rotate(-360deg);
+	transition: 1s;
+	color: lime;
+}
+
+.hero-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+.hero-bg {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0);
+}
